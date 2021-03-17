@@ -236,8 +236,8 @@ app.layout = html.Div([
     html.Div(id='tabs-example-content')
 ])
 import base64
-image_filename = r'C:\Users\bbshe\OneDrive - purdue.edu\Desktop\School\School Work\Spring 2021\EPICS121\Prototype2\Assets\South_Dakota_map.png'
-encoded_image = base64.b64encode(open(image_filename, 'rb').read()).decode('ascii')
+#image_filename = r'C:\Users\bbshe\OneDrive - purdue.edu\Desktop\School\School Work\Spring 2021\EPICS121\Prototype2\Assets\South_Dakota_map.png'
+#encoded_image = base64.b64encode(open(image_filename, 'rb').read()).decode('ascii')
 
 
 
