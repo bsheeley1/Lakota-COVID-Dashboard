@@ -215,7 +215,7 @@ plt.show()
 
 #Declare the dashboard app
 app = dash.Dash()
-
+server = app.server
 
 
 colors = {
