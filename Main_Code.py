@@ -219,7 +219,7 @@ plt.show()
 
 #Declare the dashboard app
 app = dash.Dash()
-server = app.server()
+server = app.server
 #Create the layout, declare how many tabs will be used
 #One tab per each plot, with its identifying name
 app.layout = html.Div([
