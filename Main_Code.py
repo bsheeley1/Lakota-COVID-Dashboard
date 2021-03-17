@@ -25,6 +25,7 @@ from dash.dependencies import Input, Output
 
 #Import plotly for map integration
 import plotly as p
+import pandas
 import plotly.express as px
 
 #Format of dates given as month-year for x axis
